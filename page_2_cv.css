@@ -1,0 +1,24 @@
+.bg {
+  background-color: #54B0C7;
+}
+
+.navbar {
+  background-color: rgba(0, 135,169,0.7);
+  width: 100%;
+  height: 13%;
+  padding: 20px;
+}
+
+
+.texte a {
+  color: white;
+
+  font-size: 25px;
+  font-family: 'IM Fell English SC', serif;
+  transition: 5s;
+
+}
+
+.texte a:hover {
+  rotate: 50deg;
+}
