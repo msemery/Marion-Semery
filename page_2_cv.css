@@ -1,24 +1,45 @@
 .bg {
   background-color: #D6C4ED;
+
 }
 
 .navbar {
   background-color: rgba(0,37,46,0.7);
   min-width: 100%;
-  height: 13%;
-  padding: 20px;
+  height: 10%;
+  padding: 15px;
+  margin-bottom: 0;
+  border-radius: 0;
 }
 
 
 .texte a {
   color: white;
   padding-right: 25px;
-  font-size: 25px;
-  font-family: 'IM Fell English SC', serif;
+  font-size: 20px;
+  font-family: 'Fredericka the Great', cursive;
   transition: 5s;
-
 }
 
 .texte a:hover {
   rotate: 50deg;
+}
+
+.entete {
+  position: relative;
+  box-sizing: border-box;
+  display: block;
+  min-width: 100%;
+  height: 200px;
+  background-color: rgba(247,25,38,0.7);
+}
+
+.col_gauche {
+  background-color: #e4e9ed;
+}
+
+.col_gauche img {
+  width: 45%;
+  display: block;
+  margin: auto;
 }
